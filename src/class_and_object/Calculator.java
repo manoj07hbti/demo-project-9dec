@@ -6,13 +6,13 @@ public class Calculator {
 
     // Syntax : access_specifier return_type  method_name (parameter) {}
 
-    public void addition(){
+    public int addition(){
 
         int a=5;
         int b=3;
         int result= a+b;
-
-        System.out.println("Addition of a and b is : "+result);
+       // System.out.println("Addition of a and b is : "+result);
+        return result;
     }
     // Syntax : access_specifier return_type  method_name (parameter) {}
     public void subtration(){
@@ -46,7 +46,8 @@ public class Calculator {
 
         //Step 1
         Calculator obj= new Calculator();
-        obj.addition();
+        int result=obj.addition();
+        System.out.println("Addition is :"+result);
         obj.subtration();
         obj.multi();
         obj.divide();
