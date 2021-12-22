@@ -4,8 +4,7 @@ import java.util.ArrayList;
 
 public class DemoArrayList {
 
-    public static void main(String[] args) {
-
+    public void demo(){
         // CollectionName  objName= new CollectionName();
 
         ArrayList arrayList= new ArrayList();
@@ -38,5 +37,12 @@ public class DemoArrayList {
             System.out.println("After delete Printing arrayList "+var);
         }
 
+
+    }
+
+    public static void main(String[] args) {
+
+        DemoArrayList obj= new DemoArrayList();
+        obj.demo();
     }
 }
