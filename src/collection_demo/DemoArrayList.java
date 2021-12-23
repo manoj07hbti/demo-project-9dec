@@ -15,6 +15,8 @@ public class DemoArrayList {
         arrayList.add("Spring");// 1 index
         arrayList.add("Spring Boot");//2 index
         arrayList.add("Cloud");// 3 index
+        arrayList.add(23);
+        arrayList.add(345.5);
 
         //get-- read
 
