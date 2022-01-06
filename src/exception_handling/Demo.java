@@ -9,7 +9,7 @@ public class Demo {
       }
 
       catch (Exception obj){
-        System.out.println("Exception occured ");
+        System.out.println("Exception occured " +obj);
       }
 
       finally {
@@ -22,6 +22,8 @@ public class Demo {
 
     public static void main(String[] args) {
         Demo obj= new Demo();
-        obj.divide(8,2);
+        obj.divide(8,0);
+
+
     }
 }
